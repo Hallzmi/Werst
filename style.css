@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 9%;
+}
+
+.wrapper {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 100px;
+    background-color: #822d2d;
+}
+
+footer {
+    height: 164px;
+    background-color: #822d2d;
+    margin-block-start: 30px;
+    writing-mode: horizontal-tb;
+}
+
+.up {
+    width: 1516px;
+    margin-left: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin-left: 21%;
+}
+
+.menu ul {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 21px;
+    font-family: Arial;
+    text-decoration: none;
+    
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.groupname {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    width: 1516px;
+}
+
+.main div {
+    border: 1px solid;
+}
+
+.tbl {
+    padding-left: 10px;
+    width: 1516px;
+}
+
+.t_r {
+    text-align: center;
+    font-size: 11px;
+    height: 50px;
+    background-color: #f9baba;
+    width: 200px;
+}
+
+.t_nc {
+    text-align: center;
+    font-size: 11px;
+    height: 50px;
+    width: 200px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    color: #e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 2%;
+    width: 1495px;
+}
+
+.down ul li {
+    list-style: none;
+}
+
+.down a {
+    justify-content: space-between;
+    color: #e4c4b5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+.down a:hover {
+    text-decoration: underline;
+}
+
+.down_cent {
+    margin-left: 9%;
+    text-align: right;
+
+    
+}
+
+.down_r{
+    text-align: right;
+
+}
+
